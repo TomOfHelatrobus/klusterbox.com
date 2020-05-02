@@ -1,0 +1,60 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+li {
+  float: left;
+  border-right:1px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color: red;
+}
+
+h2 {
+  font-family:Helvetica,Arial,sans-serif;
+  color:red;
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica,Arial,sans-serif;
+  text-align: justify;
+  line-height: 1.2;
+  font-size: 14px;
+}
+td {
+  font-family: Helvetica,Arial,sans-serif;
+  color: DarKSlateGrey;
+  line-height: 1.2;
+  font-size: 14px;
+}
+a {
+  color: red;
+  line-height: 1.2;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+
+
