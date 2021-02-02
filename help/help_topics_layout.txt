@@ -1,0 +1,17 @@
+help topics guide
+
+downloading and setting up klusterbox (help-1)
+	+ antivirus problems
+
+how to use the automatic data entry (help -3)
+
+how to use the auto over max finder (help-4)
+	+ how to read the over max report
+
+how to use the pdf converter (help-2)
+
+getting started (help-5)
+	+ setting the investigation range
+
+building carrier list (help-6)
+	+ entering new carrier information 

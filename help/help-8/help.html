@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>How to KLUSTERBOX</title>
+    <link rel="stylesheet" type="text/css" href="../../kb_styles.css">
+</head>
+<body>
+<table align="center"><tr><td width="600">
+<h2>Updating to a New Version</h2>
+<h3>How to Update Without Losing Information</h3>
+    <p>Klusterbox is an application that does not appear in the program files and as of now, I don't have the expertise to
+        write a program that will put it there and apply automatic updates. Fortunately, updating the program to the newest
+        version is easy.</p>
+
+    <p>1. Go to klusterbox.com/download to see if you have the most recent version.</p>
+
+    <p>2. You can tell which version of klusterbox you have currently by running klusterbox and going to
+        Management > About Klusterbox on the menu bar.
+    </p>
+    </p>
+    <p><img src="images/8-0020.jpg">
+    <br clear="left"/>
+    </img>
+    <br/></p>
+    <p>3. If you don't have the most recent version, then proceed to download the most recent version from the download page
+    at klustebox.com/download. The steps are nearly the same as those laid out in
+    <a href="../help-1/help.html">Downloading and Setting up Klusterbox</a> with some differences.
+    <p>4. Download the distribution appropriate your your operating system by pressing one of the big green buttons.</p>
+    </p>
+    <p><img src="images/8-0010.jpg">
+    <br clear="left"/>
+    </img>
+    <br/></p>
+    <p>5. A dialog will appear. Click Save to begin the download.</p>
+    <p><img src="images/8-0030.jpg">
+    <br clear="left"/>
+    </img>
+    <br/></p>
+    <p>6. Go you the download folder on your web browser. On the Firefox web browser it is located on the top right
+        of the window. Below is a picture of what it looks like.</p>
+    <p><img src="images/8-0040.jpg">
+    <br clear="left"/>
+    </img>
+    <br/></p>
+    <p>7. Clicking on the Download Folder Icon should give you a list of recently downloaded files with the most recent
+        on the top. Open the downloads folder for the browser so that you can see the recently downloaded .zip folder.</p>
+    <p><img src="images/8-0050.jpg">
+    <br clear="left"/>
+    </img>
+    <br/></p>
+    <p>8. Here the process differs from the original set up. You will upzip the folder while it is still in the
+        downloads folder. </p>
+    <p><img src="images/8-0060.jpg">
+    <br clear="left"/>
+    </img>
+    <br/></p>
+    <p>9. When the zip file unzips, you will see a folder with an executable file, klusterbox.exe and another folder
+        callled kb_sub.</p>
+    <p><img src="images/8-0070.jpg">
+    <br clear="left"/>
+    </img>
+    <br/></p>
+    <p>10. Without closing the window with the upzipped folder, open a new window and navigate to the folder where you keep
+        klusterbox. This should contain the klusterbox.exe (or some version of it) and the kb_sub folder. This is the
+        version of klusterbox with all the information in it which you want to preserve. </p>
+    <p><img src="images/8-0080.jpg">
+    <br clear="left"/>
+    </img>
+    <br/></p>
+    <p>11. Simply drag and drop the newer version of the klusterbox.exe from the upzipped folder in downloads, to the folder
+        where your older version of klusterbox was kept. If the two versions have the same name, you can overwrite and
+        replace the old version. If the two versions have different names, there should be no conflict. </p>
+    <p><img src="images/8-0090.jpg">
+    <br clear="left"/>
+    </img>
+    <br/></p>
+    <p>12. You're done! Go ahead and click on the new klusterbox version to open it. It should open to the main screen,
+    skipping the start up screen. You should be able to see your stations in the drop down menu at the top of the
+        screen.</p>
+    <p>13. You can ignore the kb_sub folder which is still in the downloads folder or you can delete it. DO NOT
+    delete the kb_sub folder which you have been using, it contains all your carrier and clock rings information.</p>
+    <p>It is fine to have a newer and an older version of the Klusterbox app sitting together in the same folder. I'm
+    not sure it would be a good idea to run them both at the same time, but running them separately should be fine. </p>
+    <p> You can create a short cut for your desk top if you want as is laid out in
+    <a href="../help-1/help.html">Downloading and Setting up Klusterbox</a></p>
+    <br>
+<h3>How it works</h3>
+    <p>When Klusterbox opens up, it looks for a database which is located in the kb_sub folder. If that database, called
+    mandates.sqlite, does not exist, the Klusterbox program creates it. If it does already exist, the Klusterbox
+        program reads it. The kb_sub folder has to be
+    in the same directory/folder as the klusterbox.exe app to work. 90% of what Klusterbox does is to read and write
+        to this mandates.sqlite database. </p>
+    <p><img src="images/8-0100.jpg">
+    <br clear="left"/>
+    </img>
+    <br/></p>
+    <p>You can even view the database if you like with apps you can get free online. I
+        use DB Browser (SQLite). Be careful though. You can seriously screw up the database if you start making changes.
+        DO NOT try to use a database browser to enter data directly into the database. The improperly formatted data
+        will screw up the database and could cause Klusterbox to crash.</p>
+    <p><img src="images/8-0110.jpg">
+    <br clear="left"/>
+    </img>
+    <br/></p>
+    <p>The database MUST be in the kb_sub folder and the kb_sub folder MUST be in the
+    same folder as the Klusterbox.exe file. Also, the database must be called "mandates.sqlite". </p>
+    <p>So really, this database "mandates.sqlite" is what contains all the information you have inputted using
+    Klusterbox. You can move it to any other computer and put inside a folder called kb_sub and then put that next to
+    any Klusterbox program and you will have access to your carrier information and clock rings. There are some folders
+    that also get generated and live in the kb_sub folder which make up the archives, but these aren't as important
+    since you can just regenerate them using the Klusterbox.exe and the Mandates.sqlite database. </p>
+
+</td></tr>
+<tr><td width="600"><h3>Help Topics</h3></td></tr>
+<tr><td width="600"><a href="../../help.html">Help Home</a></td></tr>
+<tr><td width="600"><a href="../help-1/help.html">Downloading and Setting up Klusterbox</a></td></tr>
+<tr><td width="600"><a href="../help-1/help.html#antivirus_problems">+ Antivirus Problems</a></td></tr>
+<tr><td width="600">How to Update Without Losing Information</td></tr>
+<tr><td width="600"><a href="../help-3/help.html">How To Use The Automatic Data Entry</a></td></tr>
+<tr><td width="600"><a href="../help-4/help.html">How to Use the Auto Over Max Finder</a></td></tr>
+<tr><td width="600"><a href="../help-4/help.html#reading_overmax">+ How to Read The Over Max Report</a></td></tr>
+<tr><td width="600"><a href="../help-2/help.html">How To Use The PDF Converter</a></td></tr>
+<tr><td width="600"><a href="../help-5/help.html">Getting Started</a></td></tr>
+<tr><td width="600"><a href="#investigation_range">+ Setting The Investigation Range</a></td></tr>
+<tr><td width="600"><a href="../help-6/help.html">Building Carrier List</a></td></tr>
+</table>
+</body>
+</html>
